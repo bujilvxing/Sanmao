@@ -1,11 +1,146 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="toolbarStyle">@style/MyToolbar</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/Activity.WindowAnimation</item>
     </style>
+
+
+    <style name="Activity.WindowAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_right_out</item>
+    </style>
+
+
+    <style name="MyToolbar" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="contentInsetStart">0dp</item>
+    </style>
+
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <!--  字体样式风格  -->
+
+    <style name="text_white_size13">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">13dp</item>
+    </style>
+
+    <style name="text_white_size14">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="text_graybe_size12">
+        <item name="android:textColor">@color/graybe</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="text_graybe_size10">
+        <item name="android:textColor">@color/graybe</item>
+        <item name="android:textSize">10dp</item>
+    </style>
+
+    <style name="text_graybe_size13">
+        <item name="android:textColor">@color/graybe</item>
+        <item name="android:textSize">13dp</item>
+    </style>
+
+    <style name="text_graybe_size15">
+        <item name="android:textColor">@color/graybe</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="text_black46_size17">
+        <item name="android:textColor">@color/black_46</item>
+        <item name="android:textSize">17dp</item>
+    </style>
+
+    <style name="text_black46_size18">
+        <item name="android:textColor">@color/black_46</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="text_black46_size16">
+        <item name="android:textColor">@color/black_46</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="text_black46_size15">
+        <item name="android:textColor">@color/black_46</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="text_black46_size14">
+        <item name="android:textColor">@color/black_46</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="text_black46_size13">
+        <item name="android:textColor">@color/black_46</item>
+        <item name="android:textSize">13dp</item>
+    </style>
+
+    <style name="text_black46_size12">
+        <item name="android:textColor">@color/black_46</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+
+    <style name="text_black32_size14">
+        <item name="android:textColor">@color/black_32</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="text_black32_size15">
+        <item name="android:textColor">@color/black_32</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="text_black32_size16">
+        <item name="android:textColor">@color/black_32</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="text_black32_size17">
+        <item name="android:textColor">@color/black_32</item>
+        <item name="android:textSize">17dp</item>
+    </style>
+
+    <style name="text_black32_size10">
+        <item name="android:textColor">@color/black_32</item>
+        <item name="android:textSize">10dp</item>
+    </style>
+
+    <style name="text_black32_size13">
+        <item name="android:textColor">@color/black_32</item>
+        <item name="android:textSize">13dp</item>
+    </style>
+
+    <!--  字体样式风格  -->
+    <style name="text_black_bigger">
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="text_black_big">
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">17dp</item>
+    </style>
+
+    <style name="text_black_medium">
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
 
 </resources>

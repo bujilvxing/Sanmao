@@ -2,4 +2,25 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- 公用线条高度 -->
+    <dimen name="common_line_height">0.5dp</dimen>
+    <!-- 公用导航标题栏高度 -->
+    <dimen name="common_titlebar_height">50dp</dimen>
+    <dimen name="common_titlebar_status_height">0dp</dimen>
+    <dimen name="common_titlebar_title_height">50dp</dimen>
+    <!-- 公用导航标题栏文字大小 -->
+    <dimen name="common_titlebar_text_size">17dp</dimen>
+    <!-- 公用tab中文字大小 -->
+    <dimen name="common_tab_text_size">16dp</dimen>
+    <!-- 公用tab的高度 -->
+    <dimen name="common_tab_height">45dp</dimen>
+    <!-- 公用描述性文字大小 -->
+    <dimen name="common_slide_padding">15dp</dimen>
+    <!-- 消息模块item的高度 -->
+    <dimen name="message_item_height">75dp</dimen>
+    <!-- 消息模块item中删除view的宽度 -->
+    <dimen name="message_item_del_width">59dp</dimen>
+    <!-- 下拉刷新-->
+    <!-- 主页tab高度 -->
+    <dimen name="index_tab_height">45dp</dimen>
 </resources>

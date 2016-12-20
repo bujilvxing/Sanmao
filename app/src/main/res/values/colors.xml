@@ -3,4 +3,59 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="toolbar_main_color">#BEBEBE</color>
+    <color name="toolbar_status_color">#A7A7A7</color>
+    <color name="toolbar_title_color">#00000000</color>
+
+
+    <color name="common_line_background">#E9EAEB</color>
+    <color name="common_interface_background">#F4F4F4</color>
+    <color name="common_main_selected">#ED4048</color>
+    <color name="common_main_unselected">#A7A7A7</color>
+
+
+    <color name="common_title_color">#464646</color>
+    <color name="common_content_color">#BEBEBE</color>
+    <color name="post_circle_name_link_color">#8D76AA</color>
+    <color name="common_toolbar_unline_color">#F6F6F6</color>
+    <color name="common_background_color">#EEEEEE</color>
+    <color name="index_post_type_background_color">#E6EA394E</color>
+    <color name="common_main_color">#BEBEBE</color>
+
+    <color name="common_title_background_color">#464646</color>
+    <color name="common_content_background_color">#BEBEBE</color>
+    <color name="common_line_background_color">#DFDFDF</color>
+    <color name="common_interface_background_color">#EEEEEE</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="status_bar">#F22F2F2F</color>
+
+
+    <color name="white40">#40FFFFFF</color>
+    <color name="white90">#bbF4F4F4</color>
+    <!--<color name="white95">#F4F4F4</color>-->
+    <color name="black">#000000</color>
+    <color name="black_90">#90000000</color>
+    <color name="black_32">#323232</color>
+    <color name="black_46">#464646</color>
+    <color name="grayblack">#505050</color>
+    <color name="grayb2">#B2B2B2</color>
+    <color name="graybe">#BEBEBE</color>
+    <color name="grayf4">#F4F4F4</color>
+    <color name="grayddd">#DDDDDD</color>
+    <color name="red">#FF0000</color>
+    <color name="brightred">#eb4048</color>
+    <color name="red95">#95FF2742</color>
+    <color name="green">#008000</color>
+    <color name="orange">#FFA500</color>
+    <color name="orangered">#DD2400</color>
+
+    <color name="line">#eeeeee</color>
+    <color name="text_black">#ee000000</color>
+    <color name="text_black_less">#999999</color>
+    <color name="text_grey">#666666</color>
+    <color name="text_light_grey">#cccccc</color>
+
 </resources>
